@@ -1,0 +1,79 @@
+.container {
+    background: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 40px auto;
+    color: #333;
+  }
+  
+  h1 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width: 400px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  .table thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+  }
+  
+  .table th,
+  .table td {
+    padding: 12px 15px;
+  }
+  
+  .table tbody tr {
+    border-bottom: 1px solid #dddddd;
+  }
+  
+  .table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+  }
+  
+  .table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+  }
+  
+  .table tbody tr.active-row {
+    font-weight: bold;
+    color: #009879;
+  }
+  
+  a {
+    color: #009879;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  a:hover {
+    color: #007961;
+  }
+  
+  .edit-icon,
+  .delete-icon {
+    cursor: pointer;
+  }
+  
+  .edit-icon {
+    color: #ffbb33;
+    margin-right: 10px;
+  }
+  
+  .delete-icon {
+    color: #ff4444;
+  }

@@ -1,0 +1,24 @@
+<nav class="custom-navbar">
+  <div class="nav-container">
+    <a class="navbar-brand" href="#">Product MS</a>
+    <button class="navbar-toggler">
+      <span class="toggler-icon"></span>
+    </button>
+    <div class="navbar-collapse">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" [routerLink]="['products']">
+            <i class="fas fa-box-open"></i> Products
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" [routerLink]="['products','add']">
+            <i class="fas fa-plus-circle"></i> Add Product
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<router-outlet></router-outlet>
